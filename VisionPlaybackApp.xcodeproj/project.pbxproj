@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACD3737E2A444FA30038C6DE /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = ACD3737D2A444FA30038C6DE /* RealityKitContent */; };
+		ACD373802A444FA30038C6DE /* VisionPlaybackAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3737F2A444FA30038C6DE /* VisionPlaybackAppApp.swift */; };
+		ACD373822A444FA30038C6DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD373812A444FA30038C6DE /* ContentView.swift */; };
+		ACD373842A444FA30038C6DE /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD373832A444FA30038C6DE /* ImmersiveView.swift */; };
+		ACD373862A444FA30038C6DE /* ImageBasedLight.exr in Resources */ = {isa = PBXBuildFile; fileRef = ACD373852A444FA30038C6DE /* ImageBasedLight.exr */; };
+		ACD373882A444FA30038C6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD373872A444FA30038C6DE /* Assets.xcassets */; };
+		ACD3738B2A444FA30038C6DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3738A2A444FA30038C6DE /* Preview Assets.xcassets */; };
+		ACD373952A444FA30038C6DE /* VisionPlaybackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD373942A444FA30038C6DE /* VisionPlaybackAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD373912A444FA30038C6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD373702A444FA20038C6DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD373772A444FA20038C6DE;
+			remoteInfo = VisionPlaybackApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACD373782A444FA20038C6DE /* VisionPlaybackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionPlaybackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD3737C2A444FA30038C6DE /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		ACD3737F2A444FA30038C6DE /* VisionPlaybackAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPlaybackAppApp.swift; sourceTree = "<group>"; };
+		ACD373812A444FA30038C6DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACD373832A444FA30038C6DE /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		ACD373852A444FA30038C6DE /* ImageBasedLight.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = ImageBasedLight.exr; sourceTree = "<group>"; };
+		ACD373872A444FA30038C6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD3738A2A444FA30038C6DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACD373902A444FA30038C6DE /* VisionPlaybackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionPlaybackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD373942A444FA30038C6DE /* VisionPlaybackAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPlaybackAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD373752A444FA20038C6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3737E2A444FA30038C6DE /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD3738D2A444FA30038C6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD3736F2A444FA20038C6DE = {
+			isa = PBXGroup;
+			children = (
+				ACD3737A2A444FA20038C6DE /* VisionPlaybackApp */,
+				ACD3737B2A444FA30038C6DE /* Packages */,
+				ACD373932A444FA30038C6DE /* VisionPlaybackAppTests */,
+				ACD373792A444FA20038C6DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD373792A444FA20038C6DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD373782A444FA20038C6DE /* VisionPlaybackApp.app */,
+				ACD373902A444FA30038C6DE /* VisionPlaybackAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD3737A2A444FA20038C6DE /* VisionPlaybackApp */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3737F2A444FA30038C6DE /* VisionPlaybackAppApp.swift */,
+				ACD373812A444FA30038C6DE /* ContentView.swift */,
+				ACD373832A444FA30038C6DE /* ImmersiveView.swift */,
+				ACD373852A444FA30038C6DE /* ImageBasedLight.exr */,
+				ACD373872A444FA30038C6DE /* Assets.xcassets */,
+				ACD373892A444FA30038C6DE /* Preview Content */,
+			);
+			path = VisionPlaybackApp;
+			sourceTree = "<group>";
+		};
+		ACD3737B2A444FA30038C6DE /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3737C2A444FA30038C6DE /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		ACD373892A444FA30038C6DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3738A2A444FA30038C6DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACD373932A444FA30038C6DE /* VisionPlaybackAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD373942A444FA30038C6DE /* VisionPlaybackAppTests.swift */,
+			);
+			path = VisionPlaybackAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD373772A444FA20038C6DE /* VisionPlaybackApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD373982A444FA30038C6DE /* Build configuration list for PBXNativeTarget "VisionPlaybackApp" */;
+			buildPhases = (
+				ACD373742A444FA20038C6DE /* Sources */,
+				ACD373752A444FA20038C6DE /* Frameworks */,
+				ACD373762A444FA20038C6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionPlaybackApp;
+			packageProductDependencies = (
+				ACD3737D2A444FA30038C6DE /* RealityKitContent */,
+			);
+			productName = VisionPlaybackApp;
+			productReference = ACD373782A444FA20038C6DE /* VisionPlaybackApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD3738F2A444FA30038C6DE /* VisionPlaybackAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD3739B2A444FA30038C6DE /* Build configuration list for PBXNativeTarget "VisionPlaybackAppTests" */;
+			buildPhases = (
+				ACD3738C2A444FA30038C6DE /* Sources */,
+				ACD3738D2A444FA30038C6DE /* Frameworks */,
+				ACD3738E2A444FA30038C6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD373922A444FA30038C6DE /* PBXTargetDependency */,
+			);
+			name = VisionPlaybackAppTests;
+			productName = VisionPlaybackAppTests;
+			productReference = ACD373902A444FA30038C6DE /* VisionPlaybackAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD373702A444FA20038C6DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ACD373772A444FA20038C6DE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					ACD3738F2A444FA30038C6DE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = ACD373772A444FA20038C6DE;
+					};
+				};
+			};
+			buildConfigurationList = ACD373732A444FA20038C6DE /* Build configuration list for PBXProject "VisionPlaybackApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD3736F2A444FA20038C6DE;
+			productRefGroup = ACD373792A444FA20038C6DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD373772A444FA20038C6DE /* VisionPlaybackApp */,
+				ACD3738F2A444FA30038C6DE /* VisionPlaybackAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD373762A444FA20038C6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD373882A444FA30038C6DE /* Assets.xcassets in Resources */,
+				ACD3738B2A444FA30038C6DE /* Preview Assets.xcassets in Resources */,
+				ACD373862A444FA30038C6DE /* ImageBasedLight.exr in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD3738E2A444FA30038C6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD373742A444FA20038C6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD373822A444FA30038C6DE /* ContentView.swift in Sources */,
+				ACD373802A444FA30038C6DE /* VisionPlaybackAppApp.swift in Sources */,
+				ACD373842A444FA30038C6DE /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD3738C2A444FA30038C6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD373952A444FA30038C6DE /* VisionPlaybackAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD373922A444FA30038C6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD373772A444FA20038C6DE /* VisionPlaybackApp */;
+			targetProxy = ACD373912A444FA30038C6DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACD373962A444FA30038C6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		ACD373972A444FA30038C6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		ACD373992A444FA30038C6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionPlaybackApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C226648446;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.showmax.VisionPlaybackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		ACD3739A2A444FA30038C6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionPlaybackApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C226648446;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.showmax.VisionPlaybackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		ACD3739C2A444FA30038C6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C226648446;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.showmax.VisionPlaybackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionPlaybackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionPlaybackApp";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		ACD3739D2A444FA30038C6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C226648446;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.showmax.VisionPlaybackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionPlaybackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisionPlaybackApp";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD373732A444FA20038C6DE /* Build configuration list for PBXProject "VisionPlaybackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD373962A444FA30038C6DE /* Debug */,
+				ACD373972A444FA30038C6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD373982A444FA30038C6DE /* Build configuration list for PBXNativeTarget "VisionPlaybackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD373992A444FA30038C6DE /* Debug */,
+				ACD3739A2A444FA30038C6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD3739B2A444FA30038C6DE /* Build configuration list for PBXNativeTarget "VisionPlaybackAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3739C2A444FA30038C6DE /* Debug */,
+				ACD3739D2A444FA30038C6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ACD3737D2A444FA30038C6DE /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ACD373702A444FA20038C6DE /* Project object */;
+}

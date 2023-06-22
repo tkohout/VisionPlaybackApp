@@ -11,11 +11,11 @@ import SwiftUI
 struct VisionPlaybackAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlayerView()
         }
 
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
-        }.immersionStyle(selection: .constant(.full), in: .full)
+//        ImmersiveSpace(id: "ImmersiveSpace") {
+//            ImmersiveView()
+//        }.immersionStyle(selection: .constant(.full), in: .full)
     }
 }

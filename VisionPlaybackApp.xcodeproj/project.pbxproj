@@ -10,11 +10,11 @@
 		ACD3737E2A444FA30038C6DE /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = ACD3737D2A444FA30038C6DE /* RealityKitContent */; };
 		ACD373802A444FA30038C6DE /* VisionPlaybackAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3737F2A444FA30038C6DE /* VisionPlaybackAppApp.swift */; };
 		ACD373822A444FA30038C6DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD373812A444FA30038C6DE /* ContentView.swift */; };
-		ACD373842A444FA30038C6DE /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD373832A444FA30038C6DE /* ImmersiveView.swift */; };
 		ACD373862A444FA30038C6DE /* ImageBasedLight.exr in Resources */ = {isa = PBXBuildFile; fileRef = ACD373852A444FA30038C6DE /* ImageBasedLight.exr */; };
 		ACD373882A444FA30038C6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD373872A444FA30038C6DE /* Assets.xcassets */; };
 		ACD3738B2A444FA30038C6DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3738A2A444FA30038C6DE /* Preview Assets.xcassets */; };
 		ACD373952A444FA30038C6DE /* VisionPlaybackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD373942A444FA30038C6DE /* VisionPlaybackAppTests.swift */; };
+		ACD3739F2A44508C0038C6DE /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3739E2A44508C0038C6DE /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +32,12 @@
 		ACD3737C2A444FA30038C6DE /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		ACD3737F2A444FA30038C6DE /* VisionPlaybackAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPlaybackAppApp.swift; sourceTree = "<group>"; };
 		ACD373812A444FA30038C6DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ACD373832A444FA30038C6DE /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		ACD373852A444FA30038C6DE /* ImageBasedLight.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = ImageBasedLight.exr; sourceTree = "<group>"; };
 		ACD373872A444FA30038C6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD3738A2A444FA30038C6DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACD373902A444FA30038C6DE /* VisionPlaybackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionPlaybackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD373942A444FA30038C6DE /* VisionPlaybackAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionPlaybackAppTests.swift; sourceTree = "<group>"; };
+		ACD3739E2A44508C0038C6DE /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +83,10 @@
 			children = (
 				ACD3737F2A444FA30038C6DE /* VisionPlaybackAppApp.swift */,
 				ACD373812A444FA30038C6DE /* ContentView.swift */,
-				ACD373832A444FA30038C6DE /* ImmersiveView.swift */,
 				ACD373852A444FA30038C6DE /* ImageBasedLight.exr */,
 				ACD373872A444FA30038C6DE /* Assets.xcassets */,
 				ACD373892A444FA30038C6DE /* Preview Content */,
+				ACD3739E2A44508C0038C6DE /* PlayerView.swift */,
 			);
 			path = VisionPlaybackApp;
 			sourceTree = "<group>";
@@ -221,7 +221,7 @@
 			files = (
 				ACD373822A444FA30038C6DE /* ContentView.swift in Sources */,
 				ACD373802A444FA30038C6DE /* VisionPlaybackAppApp.swift in Sources */,
-				ACD373842A444FA30038C6DE /* ImmersiveView.swift in Sources */,
+				ACD3739F2A44508C0038C6DE /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
